@@ -1,7 +1,5 @@
-const jwt = require("jsonwebtoken");
 const Ingridient = require("../models/Ingridient");
 const WineType = require("../models/WineType");
-const User = require("../models/User");
 
 const SearchWine = (req, res) => {
   Ingridient.aggregate([
